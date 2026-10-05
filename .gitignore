@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*_decrypted/
+*.lsa
+*.lsav
+.DS_Store

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-labelledby="t">
+  <title id="t">Three steps: encrypted files go in, AES-128-CTR decryption, regular photos and videos come out</title>
+  <path d="M175 110 H 285 M 435 110 H 545" stroke="#0f5f5c" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round"/>
+  <path d="M278 102 l10 8 l-10 8 M538 102 l10 8 l-10 8" fill="none" stroke="#0f5f5c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- step 1: locked files -->
+  <g transform="translate(40 30)">
+    <rect width="140" height="160" rx="24" fill="#e8f1ef"/>
+    <path d="M40 40 h40 l20 20 v62 a6 6 0 0 1 -6 6 h-54 a6 6 0 0 1 -6 -6 v-76 a6 6 0 0 1 6 -6z" fill="#fff" stroke="#9fc1bb" stroke-width="2"/>
+    <path d="M80 40 v20 h20" fill="#d7e8e4" stroke="#9fc1bb" stroke-width="2"/>
+    <path d="M58 94 v-8 a12 12 0 0 1 24 0 v8" fill="none" stroke="#ff8a6b" stroke-width="6" stroke-linecap="round"/>
+    <rect x="50" y="92" width="40" height="28" rx="6" fill="#ff8a6b"/>
+  </g>
+  <!-- step 2: key + gear -->
+  <g transform="translate(290 30)">
+    <rect width="140" height="160" rx="24" fill="#0f5f5c"/>
+    <g transform="translate(70 80)">
+      <circle r="34" fill="none" stroke="#7fc4bc" stroke-width="12" stroke-dasharray="12 9"/>
+      <circle r="22" fill="#0a3f3d"/>
+      <circle cx="-6" r="8" fill="none" stroke="#f2b880" stroke-width="5"/>
+      <path d="M2 0 h16 M12 0 v7 M17 0 v5" stroke="#f2b880" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+  <!-- step 3: photos and video -->
+  <g transform="translate(540 30)">
+    <rect width="140" height="160" rx="24" fill="#fbeee6"/>
+    <rect x="28" y="36" width="62" height="50" rx="5" fill="#fff" stroke="#e9c9b6" stroke-width="2" transform="rotate(-8 59 61)"/>
+    <path d="M34 78 L50 60 L62 70 L70 64 L84 78Z" fill="#0f5f5c" transform="rotate(-8 59 61)"/>
+    <rect x="50" y="78" width="66" height="48" rx="5" fill="#1a7a75"/>
+    <path d="M76 90 L94 102 L76 114 Z" fill="#fff"/>
+    <circle cx="112" cy="40" r="14" fill="#0f5f5c"/>
+    <path d="M105 40 l5 5 l9 -10" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
